@@ -2,9 +2,24 @@
 body{
     background-color: #000000!important;
 }
+.img-wrapper video {
+    width: 100%;
+    height: 100%;
+   
+   
+}
+.video-wrapper {
+  
+    width: 360px;
+    height: 100%;
+    padding-top: 18%;
+   
+}
+
 nav.menuCor{
     background-color:#FFF504!important;
     height: 75px;
+    width: 100%;
 }
 .imageLogo{
    padding-left: 30px;
@@ -34,10 +49,6 @@ nav.menuCor{
     text-align: center;
     color: #000000;
     
-}
-ul.listaMenu{
-    padding-left: 170px;
-
 }
 
 .botaoMenu{
@@ -83,7 +94,15 @@ ul.listaMenu{
 }
 p.sobreAcademia{
     font-size:12pt ;
-    text-align: justify;
+    text-align: center;
     color: #FFFFFF;
+}
+button.navbar-toggler{
+    border-color: black!important;
+}
+.listaMenu{
+    margin-top: 6px;
+    background-color:#FFF504;
+    align-items: center;
 }
 
