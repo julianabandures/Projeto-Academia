@@ -17,6 +17,7 @@
 <body >
 
 <!--inicio do menu de navegação-->
+
     <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light  menuCor">
         <div class="imageLogo"><img src="./css/logo.png" alt="logo" width="60px" id="logo"><a class="navbar-brand" id="tituloPrincipal" href="#">Arena</br> Centro de</br>Lutas</a></div>
         
@@ -26,36 +27,48 @@
       
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto listaMenu">
-                <li class="nav-item active">
-                <a class="nav-link" href="#sobre"><button class="botaoMenu">Sobre</button></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#estrutura"><button class="botaoMenu">Estrutura</button></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#modalidades"><button class="botaoMenu">Modalidades</button></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#depoimentos"><button class="botaoMenu">Depoimentos</button></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato"><button class="botaoMenu">Contato</button></a>
-                </li>
+                <div>
+                  <li class="nav-item active">
+                  <a class="nav-link" href="#sobre"><button class="botaoMenu">Sobre</button></a>
+                  </li>
+                </div>
+                <div>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#estrutura"><button class="botaoMenu">Estrutura</button></a>
+                  </li>
+                </div>
+                <div>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#modalidades"><button class="botaoMenu">Modalidades</button></a>
+                  </li>
+                </div>
+                <div>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#depoimentos"><button class="botaoMenu">Depoimentos</button></a>
+                  </li>
+                </div>
+                <div>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contato"><button class="botaoMenu">Contato</button></a>
+                  </li>
+                </div>
             </ul>
         </div>
+     
       </nav>
-        <div class="row">
-            <div class="col-12 video-wrapper">
-                <video src="./css/video-inicial.mp4" type="video/mp4"  autoplay loop width="100%">
+      
+            <div>
+              <video autoplay muted loop>
+                <source src="./css/video-inicial-2.mp4" type="video/mp4">
+              </video>
             </div>
-        </div>
-        <div class="row" >
-            <div class="col-12">
+           
+            <div>
                 <h1 class="quemSomos"id="sobre">Quem Somos</h1>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-5 col-md-12 col-sm-12 espacoCarousel">
+       
+        
+            <div class="espacoCarousel">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -65,9 +78,19 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img class="d-block w-100" src="./css/imgInicial.jpg" alt="First slide">
+                        <p class="sobreAcademia">A Academia Centro de Lutas ACL é uma academia de artes marciais fundada no ano de 2014, com o propósito de ensinar os alunos que querem aprender as modalidades de luta de forma honrosa e respeitada.
+                          Aqui nossos alunos contam com todo apoio do professor onde terão um tratamento exclusivo e individual feito pelo professor e fundador da ACL .
+                          Além disso todas as modalidades trabalham no âmbito geral:
+                          •	Melhoria na coordenação motora
+                          •	Canalização do estresse
+                          •	Desenvolvimento de auto controle e disciplina.
+                          </p>
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="./css/imgInicial.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="./css/imgInicial.jpg" alt="First slide">
+                            <p class="sobreAcademia">O professor e fundador da ACL Edilmo, iniciou sua jornada no mundo das artes marciais através do Kung Fu em que praticou a modalidade por 10 anos e a modalidade de Judô praticada por 2 anos. Também possui vasta experiencia em Kick Boxing, Jiu Jitsu, Muay Thai e Defesa pessoal.
+                            Atualmente o professor Edilmo é Faixa Preta de Kick Boxing e Jiu Jitsu.
+                            </p>
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -80,74 +103,19 @@
                     </a>
                   </div>
             </div>
-            <div class="col-lg-5 col-md-12 col-sm-12 espacoCarousel">
-                <div id="carouselExampleIndicators2" class="carousel slide 2" data-ride="carousel">
-                    <ol class="carousel-indicators 2">
-                      <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active 2"></li>
-                      <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                    </ol>
-                    <div class="carousel-inner 2">
-                      <div class="carousel-item active 2">
-                        <p class="sobreAcademia">A Academia Centro de Lutas ACL é uma academia de artes marciais fundada no ano de 2014, com o propósito de ensinar os alunos que querem aprender as modalidades de luta de forma honrosa e respeitada.
-                          Aqui nossos alunos contam com todo apoio do professor onde terão um tratamento exclusivo e individual feito pelo professor e fundador da ACL .
-                          Além disso todas as modalidades trabalham no âmbito geral:
-                          •	Melhoria na coordenação motora
-                          •	Canalização do estresse
-                          •	Desenvolvimento de auto controle e disciplina.
-                          </p>
-                      </div>
-                      <div class="carousel-item 2">
-                        <p class="sobreAcademia">O professor e fundador da ACL Edilmo, iniciou sua jornada no mundo das artes marciais através do Kung Fu em que praticou a modalidade por 10 anos e a modalidade de Judô praticada por 2 anos. Também possui vasta experiencia em Kick Boxing, Jiu Jitsu, Muay Thai e Defesa pessoal.
-                          Atualmente o professor Edilmo é Faixa Preta de Kick Boxing e Jiu Jitsu.
-                          </p>
-                      </div>
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev 2" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon 2" aria-hidden="true"></span>
-                      <span class="sr-only 2">Previous</span>
-                    </a>
-                    <a class="carousel-control-next 2" href="#carouselExampleIndicators2" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon 2" aria-hidden="true"></span>
-                      <span class="sr-only 2">Next</span>
-                    </a>
-                  </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
                 <h1 class="quemSomos" id="estrutura">Estrutura da Academia</h1>
                 <p class="sobreAcademia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum iusto, sint sed ullam laborum quam nihil veritatis corrupti a! Illo quia laborum numquam, autem consectetur amet saepe voluptatem sequi!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit vel, ad eveniet dolorem natus tempora vitae voluptas cupiditate saepe error, exercitationem porro aut iure nulla officiis. Quibusdam reprehenderit sequi adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste explicabo inventore sit quibusdam dolor mollitia laborum quos voluptatum molestias? Autem adipisci itaque repellendus quasi provident suscipit, aliquam maiores dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, atque accusantium ad repudiandae magnam labore nam, alias quae dolorum quasi, totam error ut aliquid maxime. Laboriosam est odio voluptates repellat.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+         
                 <h1 class="quemSomos" id="modalidades">Modalidades</h1>
                 <p class="sobreAcademia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum iusto, sint sed ullam laborum quam nihil veritatis corrupti a! Illo quia laborum numquam, autem consectetur amet saepe voluptatem sequi!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit vel, ad eveniet dolorem natus tempora vitae voluptas cupiditate saepe error, exercitationem porro aut iure nulla officiis. Quibusdam reprehenderit sequi adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste explicabo inventore sit quibusdam dolor mollitia laborum quos voluptatum molestias? Autem adipisci itaque repellendus quasi provident suscipit, aliquam maiores dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.lorem Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, atque accusantium ad repudiandae magnam labore nam, alias quae dolorum quasi, totam error ut aliquid maxime. Laboriosam est odio voluptates repellat.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+       
+         
                 <h1 class="quemSomos" id="depoimentos">Depoimentos</h1>
                 <p class="sobreAcademia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum iusto, sint sed ullam laborum quam nihil veritatis corrupti a! Illo quia laborum numquam, autem consectetur amet saepe voluptatem sequi!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit vel, ad eveniet dolorem natus tempora vitae voluptas cupiditate saepe error, exercitationem porro aut iure nulla officiis. Quibusdam reprehenderit sequi adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste explicabo inventore sit quibusdam dolor mollitia laborum quos voluptatum molestias? Autem adipisci itaque repellendus quasi provident suscipit, aliquam maiores dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
+      
                 <h1 class="quemSomos" id="contato">Contato</h1>
                 <p class="sobreAcademia">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias rerum iusto, sint sed ullam laborum quam nihil veritatis corrupti a! Illo quia laborum numquam, autem consectetur amet saepe voluptatem sequi!Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit vel, ad eveniet dolorem natus tempora vitae voluptas cupiditate saepe error, exercitationem porro aut iure nulla officiis. Quibusdam reprehenderit sequi adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste explicabo inventore sit quibusdam dolor mollitia laborum quos voluptatum molestias? Autem adipisci itaque repellendus quasi provident suscipit, aliquam maiores dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
+   
 
     <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -161,7 +129,7 @@
           integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
           crossorigin="anonymous"></script>
       <!-- Required meta tags -->
-      
     
+     
 </body>
 </html>
