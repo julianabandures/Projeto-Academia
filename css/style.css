@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
 body{
     background-color: #000000!important;
 }
@@ -42,6 +48,12 @@ nav.menuCor{
     color: #000000;
     
 }
+ul.container {
+    
+    display: flex;
+    justify-content:flex-end;
+    
+   }
 
 
 .botaoMenu{
@@ -64,6 +76,7 @@ nav.menuCor{
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+
 }
 .quemSomos{
     text-transform: uppercase;
@@ -86,8 +99,15 @@ nav.menuCor{
     margin: 3%;
 }*/
 p.sobreAcademia{
-    font-size:12pt ;
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
     text-align: center;
+
     color: #FFFFFF;
 }
 button.navbar-toggler{
@@ -102,4 +122,11 @@ button.navbar-toggler{
 #navbarSupportedContent{
     margin-left: -10%;
     margin-right: -10%;
+    
+}
+.imagemSobre{
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+   border: 2px solid #FFF504;
 }
