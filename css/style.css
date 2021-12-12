@@ -81,6 +81,7 @@ ul.container {
 button:hover{
     background-color:black;
     color: white;
+    border-color: white;
     transition: 0.5s;
     cursor: pointer;
 }
