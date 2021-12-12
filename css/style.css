@@ -78,6 +78,10 @@ ul.container {
     box-sizing: border-box;
 
 }
+button:hover{
+    background-color: rgb(196, 194, 194);
+    cursor: pointer;
+}
 .quemSomos{
     text-transform: uppercase;
     height: 100px;
