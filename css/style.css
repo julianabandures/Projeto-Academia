@@ -79,7 +79,9 @@ ul.container {
 
 }
 button:hover{
-    background-color: rgb(196, 194, 194);
+    background-color:black;
+    color: white;
+    transition: 0.5s;
     cursor: pointer;
 }
 .quemSomos{
