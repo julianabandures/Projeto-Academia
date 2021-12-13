@@ -1,0 +1,57 @@
+@media only screen and (max-width: 900px) {
+    #tituloPrincipal{
+        margin-left: 6%;
+    }
+    .botaoMenu{
+        width: 100%;
+        background-color: #fff504;
+        border-color: #fff504;
+        font-size: 24px;
+        font-weight: 900;
+        margin-left: 8%;
+        margin-right: 8%;
+        align-items:center;
+    }
+    video{
+        margin-top:18% ;
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    .quemSomos{
+    text-transform: uppercase;
+    height: 100px;
+    left: calc(50% - 341px/2 - 8.5px);
+    top: 785px;
+    padding-top: 16%;
+    padding-bottom: 20%;
+
+    font-family:quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25pt!important;
+    line-height: 71px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .imagemSobre{
+        width: 200px;
+        height: 200px;
+        border-radius: 2%;
+       border: 2px solid #FFF504;
+    }
+    p.sobreAcademia{
+        font-family: Quantico;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10pt;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    
+        color: #FFFFFF;
+    }
+    .imgEspaco{
+     margin-top: 4%;
+    }
+  }
