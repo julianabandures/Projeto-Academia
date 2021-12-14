@@ -1,6 +1,6 @@
 @media only screen and (max-width: 900px) {
     #tituloPrincipal{
-        margin-left: 6%;
+        margin-left: 2%;
     }
     .botaoMenu{
         width: 100%;
@@ -43,15 +43,24 @@
         font-family: Quantico;
         font-style: normal;
         font-weight: normal;
-        font-size: 10pt;
-        line-height: 29px;
+        font-size: 12pt;
+        line-height: 20px;
         display: flex;
         align-items: center;
-        text-align: center;
+        text-align:justify;
+        padding-left: 12%;
+        padding-right: 12%;
+        
     
         color: #FFFFFF;
     }
     .imgEspaco{
      margin-top: 4%;
+    }
+    .setaSobrePrev{
+        margin-left: -1%;
+    }
+    .carousel-control-next-icon{
+        margin-left:10px;
     }
   }

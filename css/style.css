@@ -18,6 +18,9 @@ nav.menuCor{
     height: 75px;
     width: 100%;
 }
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
+  }
 .imageLogo{
    padding-left: 30px;
    margin-top: 0%;
@@ -100,11 +103,33 @@ button:hover{
     line-height: 71px;
     text-align: center;
     color: #FFFFFF;
-
 }
-/*.espacoCarousel{
-    margin: 3%;
+.setaSobrePrev{
+    margin-left: 45%;
+}
+.carousel-control-next-icon{
+    margin-left:100px;
+}
+
+/*
+mostrar seta
+.setaEstruturaPrev,.setaEstruturaNext{
+    border-radius: 50%;
+    background-color: black!important;
+   
 }*/
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+
+  width: 40px!important;
+  height: 40px!important;
+}
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>')!important;
+}
+.carousel-control-next-icon {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>')!important;
+}
 p.sobreAcademia{
     font-family: Quantico;
     font-style: normal;
@@ -115,11 +140,14 @@ p.sobreAcademia{
     align-items: center;
     text-align: center;
 
+    padding-left: 10%;
+    padding-right: 10%;
+
     color: #FFFFFF;
 }
 button.navbar-toggler{
-    border-color:#FFF504!important;
-    background-color: #FFF504;
+    border-color:black;
+    background-color: black;
 }
 .listaMenu{
     margin-top: 6px;
@@ -132,9 +160,10 @@ button.navbar-toggler{
     margin-right: -10%;
     
 }
+
 .imagemSobre{
     width: 500px;
     height: 500px;
-    border-radius: 10%;
-   border: 2px solid #FFF504;
+    border-radius: 25px;
+    border: 2px solid #FFF504;
 }
