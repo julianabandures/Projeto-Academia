@@ -1,66 +1,71 @@
 @media only screen and (max-width: 900px) {
-    #tituloPrincipal{
-        margin-left: 2%;
-    }
-    .botaoMenu{
-        width: 100%;
-        background-color: #fff504;
-        border-color: #fff504;
-        font-size: 24px;
-        font-weight: 900;
-        margin-left: 8%;
-        margin-right: 8%;
-        align-items:center;
-    }
-    video{
-        margin-top:18% ;
-        width: 100%;
-        margin-bottom: 0%;
-    }
-    .quemSomos{
+  #tituloPrincipal {
+    margin-left: 2%;
+  }
+  .botaoMenu {
+    width: 100%;
+    background-color: #fff504;
+    border-color: #fff504;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 8%;
+    margin-right: 8%;
+    align-items: center;
+  }
+
+  .botaoMenu:hover {
+    color: #fff;
+    background-color: #000000;
+  }
+
+  video {
+    margin-top: 18%;
+    width: 100%;
+    margin-bottom: 0%;
+  }
+  .quemSomos {
     text-transform: uppercase;
     height: 100px;
-    left: calc(50% - 341px/2 - 8.5px);
+    left: calc(50% - 341px / 2 - 8.5px);
     top: 785px;
     padding-top: 16%;
     padding-bottom: 20%;
 
-    font-family:quantico;
+    font-family: quantico;
     font-style: normal;
     font-weight: normal;
-    font-size: 25pt!important;
+    font-size: 25pt !important;
     line-height: 71px;
     text-align: center;
-    color: #FFFFFF;
-    }
-    .imagemSobre{
-        width: 200px;
-        height: 200px;
-        border-radius: 2%;
-       border: 2px solid #FFF504;
-    }
-    p.sobreAcademia{
-        font-family: Quantico;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12pt;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        text-align:justify;
-        padding-left: 12%;
-        padding-right: 12%;
-        
-    
-        color: #FFFFFF;
-    }
-    .imgEspaco{
-     margin-top: 4%;
-    }
-    .setaSobrePrev{
-        margin-left: -1%;
-    }
-    .carousel-control-next-icon{
-        margin-left:10px;
-    }
+    color: #ffffff;
   }
+  .imagemSobre {
+    width: 200px;
+    height: 200px;
+    border-radius: 2%;
+    border: 2px solid #fff504;
+  }
+  p.sobreAcademia {
+    font-family: Quantico;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12pt;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 12%;
+    padding-right: 12%;
+
+    color: #ffffff;
+  }
+  .imgEspaco {
+    margin-top: 4%;
+  }
+  .setaSobrePrev {
+    margin-left: -1%;
+  }
+  .carousel-control-next-icon {
+    margin-left: 10px;
+  }
+}
