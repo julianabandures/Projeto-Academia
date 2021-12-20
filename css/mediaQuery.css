@@ -1,6 +1,6 @@
 @media only screen and (max-width: 900px) {
   #tituloPrincipal {
-    margin-left: 2%;
+    margin-left: 8%;
   }
   .botaoMenu {
     width: 100%;
@@ -60,6 +60,7 @@
     color: #ffffff;
   }
   .imgEspaco {
+    margin-bottom: 4%;
     margin-top: 4%;
   }
   .setaSobrePrev {
@@ -67,5 +68,8 @@
   }
   .carousel-control-next-icon {
     margin-left: 10px;
+  }
+  .setaEstruturaPrev{
+    margin-left: 0%!important;
   }
 }

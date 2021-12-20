@@ -97,11 +97,19 @@ button:hover {
   text-align: center;
   color: #ffffff;
 }
-.setaSobrePrev {
+.setaSobrePrev{
   margin-left: 45%;
 }
+
 .carousel-control-next-icon {
   margin-left: 100px;
+}
+.setaEstruturaPrev{
+  margin-left:-5%!important;
+}
+
+.setaEstruturaNext{
+  margin-right: 1%!important;
 }
 
 /*
@@ -157,3 +165,4 @@ button.navbar-toggler {
   border-radius: 25px;
   border: 2px solid #fff504;
 }
+
