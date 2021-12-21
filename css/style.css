@@ -60,17 +60,18 @@ ul.container {
   left: 470px;
   top: 18px;
 
+  border-radius: 10px;
   text-transform: uppercase;
   font-family: Quantico;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  align-items: center;
+  align-items:center;
   text-align: center;
   color: #000000;
 
-  background: #ffffff;
+  background: #FFFFFF;
   border: 1px solid #000000;
   box-sizing: border-box;
 }
@@ -164,5 +165,36 @@ button.navbar-toggler {
   height: 500px;
   border-radius: 25px;
   border: 2px solid #fff504;
+}
+
+.imgModalidade{
+  width: 200px;
+  height: 320px;
+  border-radius: 25px;
+  border: 2px solid #000000;
+}
+
+.kick, .jiu, .judo, .karate{
+  text-transform: uppercase;
+  border-radius: 7px;
+  margin: 5px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #FFF504;
+}
+
+.txtMod{
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-weight: 500;
+}
+
+a:link, a:visited{
+  color: black;
+}
+
+.botao-agendar{
+  background-color: #D36907;
+  margin-bottom: 8px;
 }
 
