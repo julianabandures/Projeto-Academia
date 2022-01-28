@@ -253,6 +253,7 @@ div.vertical-line{
     flex-direction: row;
     justify-content: center;
     gap: 170px;
+    color:rgb(245, 228, 81);
 }
 
 .text-center{
