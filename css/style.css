@@ -5,6 +5,7 @@
     border: 0;
     box-sizing: border-box;
   }
+
 body{
     background-color: #000000!important;
 }
@@ -18,14 +19,16 @@ nav.menuCor{
     height: 75px;
     width: 100%;
 }
+
 .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")!important;
-  }
+}
+
 .imageLogo{
    padding-left: 30px;
    margin-top: 0%;
-   
 }
+
 #logo{
     border-radius: 50%;
     position:relative;
@@ -51,13 +54,13 @@ nav.menuCor{
     color: #000000;
     
 }
+
 ul.container {
     
     display: flex;
     justify-content:flex-end;
     
-   }
-
+}
 
 .botaoMenu{
  
@@ -82,6 +85,7 @@ ul.container {
     box-sizing: border-box;
 
 }
+
 button:hover{
     background-color:black;
     color: white;
@@ -89,6 +93,7 @@ button:hover{
     transition: 0.5s;
     cursor: pointer;
 }
+
 .quemSomos{
     text-transform: uppercase;
     height: 100px;
@@ -105,32 +110,34 @@ button:hover{
     text-align: center;
     color: #FFFFFF;
 }
+
 .setaSobrePrev{
     margin-left: 45%;
 }
+
 .carousel-control-next-icon{
     margin-left:120px;
 }
 
-/*
-mostrar seta
-.setaEstruturaPrev,.setaEstruturaNext{
-    border-radius: 50%;
-    background-color: black!important;
-   
-}*/
+a.setaEstruturaPrev{
+    margin-left: -1%!important;  
+}
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
 
   width: 40px!important;
   height: 40px!important;
 }
+
 .carousel-control-prev-icon {
   background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/></svg>')!important;
 }
+
 .carousel-control-next-icon {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/></svg>')!important;
 }
+
 p.sobreAcademia{
     font-family: Quantico;
     font-style: normal;
@@ -151,16 +158,16 @@ button.navbar-toggler{
     border-color:black;
     background-color: black;
 }
+
 .listaMenu{
     margin-top: 6px;
     background-color:#FFF504;
     align-items: center;
-
 }
+
 #navbarSupportedContent{
     margin-left: -10%;
-    margin-right: -10%;
-    
+    margin-right: -10%;  
 }
 
 .imagemSobre{
@@ -168,10 +175,10 @@ button.navbar-toggler{
     border-radius: 25px;
     border: 1px solid #FFF504;
 }
+
 .car{
     margin-left: 120px!important;
 }
-
 
 .imgModalidade{
     width: 100px;
@@ -222,6 +229,10 @@ a:active {
   color: #fff;
 }
 
+#contato{
+    padding-bottom: 16%;
+
+}
 
 div.vertical-line{
     width: 0px; 
@@ -229,30 +240,28 @@ div.vertical-line{
     float: left; 
     border: 1px inset;
 }
+
 .Telefone {
     float:left;
     width:240px;
     position:absolute;
 }
+
 .Email {
     text-align: center;
     position:absolute;
-    
-    
-
 }
+
 .Endereco{
     text-align: right;
     position: relative;
 }
 
-
-
 .footer-itens{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 170px;
+    gap: 180px;
     color:rgb(245, 228, 81);
 }
 
@@ -275,13 +284,16 @@ div.vertical-line{
     left: -68px;
     background: #fff;
 }
+
 .center{
     text-align: center;
 }
+
 .center i{
     margin-left: 40px;
 }
+
 iframe{
     width: 100%;
-justify-content: center;
+    justify-content: center;
 }
