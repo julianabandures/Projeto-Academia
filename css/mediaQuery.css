@@ -1,6 +1,8 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
+  
   #tituloPrincipal {
-    margin-left: 6%;
+    margin-left: 3%;
+
   }
   .botaoMenu {
     width: 100%;
@@ -28,13 +30,13 @@
     height: 100px;
     left: calc(50% - 341px / 2 - 8.5px);
     top: 785px;
-    padding-top: 16%;
+    padding-top: 17%;
     padding-bottom: 20%;
 
     font-family: quantico;
     font-style: normal;
     font-weight: normal;
-    font-size: 25pt !important;
+    font-size: 35pt !important;
     line-height: 71px;
     text-align: center;
     color: #ffffff;
@@ -67,7 +69,8 @@
     margin-top: 4%;
   }
   .setaSobrePrev {
-    margin-left: -1%;
+    margin-left: -2%;
+  
   }
   .carousel-control-next-icon {
     margin-left: 10px;
@@ -75,4 +78,47 @@
   .setaEstruturaPrev{
     margin-left: 0%!important;
   }
+  .cards{
+    width: 300px!important;
+    height:420px;
+  }
+  .imgModalidade{
+    height: 200px;
+  }
+
+    .listamodalidades{
+    align-items: center;
+    margin: 0cm!important;
+    padding: 0cm!important;
+  }
+
+  .listamodalidades{
+    align-items: center;
+    margin: 0cm!important;
+    padding: 0cm!important;
+  }
+  #contato{
+    margin-bottom: 30px;
+  }
+ .linha-vertical{
+   border-bottom:2px solid #FFFFFF !important;
+   height: 0%;
+   width: 350px;
+   border-left: none; 
+ }
+ ul.listacontato{
+   display: flex;
+   align-items: center;
+   margin: 0%!important;
+   padding:0%;
+   }
+   br.esconder{
+     display: none;
+ }
+ .center i{
+  margin-left: 0%;
+  margin-top: 60px;
+  font-size:80pt!important;
+ }
+  
 }
