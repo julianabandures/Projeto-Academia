@@ -222,6 +222,9 @@ a:active {
   background-color: rgb(212, 144, 55);
   margin-bottom: 5px;
   
+}ul.listamodalidades{
+    list-style:none;
+    margin-left: 5%;
 }
 
 .botao-agendar:hover {

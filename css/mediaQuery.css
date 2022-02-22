@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 720px) {
   
   #tituloPrincipal {
     margin-left: 3%;
@@ -92,9 +92,16 @@
     padding: 0cm!important;
   }
 
-  .listamodalidades{
+  div.row.listamodalidades{
+    display: flex;
     align-items: center;
     margin: 0cm!important;
+    padding: 0cm!important;
+  }
+  ul.listamodalidades{
+    display: flex;
+    align-items: center;
+    margin-left: 8%!important;
     padding: 0cm!important;
   }
   #contato{
@@ -103,14 +110,15 @@
  .linha-vertical{
    border-bottom:2px solid #FFFFFF !important;
    height: 0%;
-   width: 350px;
-   border-left: none; 
+   width: 300px;
+   border-left: none;
+   margin-left: 10%;
  }
  ul.listacontato{
    display: flex;
    align-items: center;
    margin: 0%!important;
-   padding:0%;
+   padding:0%!important;
    }
    br.esconder{
      display: none;
